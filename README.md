@@ -14,9 +14,9 @@ Remember to break down problems to help you solve them and that Google is your f
 
 ### Instructions
 
-To complete these challenges you will need to have Python (version 3.3 onwards)  installed on your computer.
+To complete these challenges you will need to have Python (version 3.3 onwards) installed on your computer.
 
-Follow this link and to download and install Python for your laptop:
+Follow this link to download and install Python for your laptop:
 
 https://www.python.org/downloads/
 
@@ -26,9 +26,9 @@ Once you've got Python installed you can make a start!
 
 Firstly you will need to [fork this GitHub repository](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) to your own GitHub profile and then clone your forked repository down to your laptop.
 
-NOTE: You do NOT have to submit Pull Requests to us.
+**NOTE: You do NOT have to submit Pull Requests to us.**
 
-After cloning this repository, its recommend to enable a virtual environment and install dependencies.
+After cloning this repository, it is recommended to enable a virtual environment and install dependencies.
 
 If you haven't got virtualenv installed you can install it by running:
 
