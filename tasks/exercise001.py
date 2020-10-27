@@ -6,4 +6,13 @@
 # Good luck!
 
 def repeats(arr):
-    return
+    return  for item in arr:
+      dict[item]+=1
+    else:
+      dict[item]=0
+  
+  sum=0
+  for num in dict.keys():
+    if dict[num]==0:
+      sum=sum+int(num)
+  return sum
