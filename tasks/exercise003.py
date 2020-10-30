@@ -11,9 +11,9 @@
 def row_weights(array):
     new_weight_array=[0,0]
    
-    for item in array:
-      if array.index(item)%2==0:
-        new_weight_array[0]=new_weight_array[0]+item
+    for i in range(len(array)):
+      if i%2==0:#if item in the array exists in 0,2,4,.. places, it will be added to the first element of the new array.
+        new_weight_array[0]=new_weight_array[0]+array[i]
       else:
-        new_weight_array[1]=new_weight_array[1]+item
+        new_weight_array[1]=new_weight_array[1]+array[i]
     return new_weight_array
