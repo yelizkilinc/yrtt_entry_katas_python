@@ -19,4 +19,11 @@
 # wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 
 def wave(people):
-    return
+    wave_lst=[]
+    for num in range(len(people)):
+      if people[num] is " ": #If there is a gap, it will pass without doing anything
+        continue
+      else:
+        wave_lst.append(people[:num]+people[num].upper()+people[num+1:])
+      
+    return wave_lst
