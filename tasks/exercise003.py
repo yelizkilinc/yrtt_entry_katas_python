@@ -8,18 +8,12 @@
 # Array size is at least 1.
 # All numbers will be positive.
 
-# Input >> Output Examples
-# rowWeights([13, 27, 49])  ==>  return (62, 27)
-# Explanation:
-# The first element 62 is the total weight of team 1, and the second element 27 is the total weight of team 2.
-
-# rowWeights([50, 60, 70, 80])  ==>  return (120, 140)
-# Explanation:
-# The first element 120 is the total weight of team 1, and the second element 140 is the total weight of team 2.
-
-# rowWeights([80])  ==>  return (80, 0)
-# Explanation:
-# The first element 80 is the total weight of team 1, and the second element 0 is the total weight of team 2.
-
 def row_weights(array):
-    return
+    new_weight_array=[0,0]
+   
+    for item in array:
+      if array.index(item)%2==0:
+        new_weight_array[0]=new_weight_array[0]+item
+      else:
+        new_weight_array[1]=new_weight_array[1]+item
+    return new_weight_array
